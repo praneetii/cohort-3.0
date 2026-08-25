@@ -1,0 +1,96 @@
+@font-face {
+    font-family:melodrame;
+    src: url(./fonts/Relationship\ of\ mélodrame.ttf) format("truetype");
+}
+@font-face{
+    font-family:coolvetica;
+    src: url(./fonts/coolvetica.otf) format("opentype"); 
+}
+@font-face{
+    font-family:neuemachinalight;
+    src: url(./fonts/neuemachinalight.woff2) format("woff2");
+}
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%; 
+}
+
+
+h1{
+    color: rgb(251, 245, 245);
+    background-color: rgb(78, 82, 80);
+    font-size: 50px;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    font-family: neuemachinalight; 
+    text-align:center;
+}
+h2{
+    color: rgb(225, 215, 223);
+    background-color: rgb(88, 20, 20);
+    font-size: 30px;
+    font-weight:normal;
+    font-family: coolvetica; 
+    text-align:center;
+}
+p{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-size: 33px;
+    font-family: melodrame; 
+    font-weight:normal;
+    text-align:left;
+}
+.box77{
+    height: 100px;
+    width: 100px;
+    background: linear-gradient(to right, orange, white, green);
+    position:container;
+    top:20px;
+    right:20px;
+}
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 0, 0);
+    position:container;
+    top:20px;
+    right:20px;
+    margin: 60px 30px 30px 30px;    
+}
+#innerbox1{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(116, 109, 109);
+    position:container;
+    top:25px;
+    right:25px;
+    margin-left: 25px;
+    margin-top: 55px;
+}
+button{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: melodrame; 
+    font-size: 20px;
+    margin-left: 30px;
+    padding: 20px 30px 40px 30px;
+    border-color:blueviolet;
+    border-width: 5px;
+}
+body{
+    background-color:black 
+}
+h3{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%)
+}
