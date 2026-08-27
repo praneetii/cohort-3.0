@@ -20,7 +20,7 @@ body {
     background-color:palegoldenrod
 }
 .box:nth-child(1){
-    
+
 }
 .page {
     height: 100%;
@@ -40,9 +40,4 @@ body {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-}
-.parent{
-    height: 100%;
-    width: 100%;   
-    background-color: black;
 }

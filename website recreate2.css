@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: white;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+h1 {
+    transition: 0.3s;
+    font-family:'Times New Roman', Times, serif;
+    font-size:44px;
+    transition: 0.3s;
+}
+
+h1 {
+    background: linear-gradient(90deg, #F7E7CE, #C98B8B, #F7E7CE);
+    background-size: 300%;
+    color: transparent;
+    background-clip: text;
+    animation: move 3s infinite linear;
+}
+
+@keyframes move {
+    from {
+        background-position: 0%;
+    }
+    to {
+        background-position: 300%;
+    }
+}
+
+h1:hover {
+    transform: scale(1.05);
+    letter-spacing: 5px;
+    text-shadow: 0 0 15px rgba(201, 139, 139, 0.35);
+}
+main{
+height: 100%;
+width: 100%;
+background-color:black;
+}
+nav{
+height:100px;
+width:100%;
+background-color:rgb(65, 174, 225);
+display: flex;
+align-items: center;
+padding: 20px;
+justify-content: space-between;
+}
+.part{
+height: 100%;
+width: 20%;
+background-color: rgb(8, 20, 55);
+}
+.part:nth-child(2){
+width: 50%;
+background-color: peachpuff;
+}
+section.center{
+width: 100%;
+background-color: rgb(133, 24, 80);
+display: flex;
+justify-content: center;
+text-align: center;
+}
+.center-text{
+    width:50%;
+    text-align: center;
+    padding:50px;
+}
+button{
+    padding: 10px;
+    width: 200px;
+    height: 60px;
+    background-color: rgb(64, 92, 104);
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+button:hover {
+    background-color: rgb(44, 42, 42);
+    transform: scale(1.05);
+}
+button:active {
+    background-color: rgb(222, 222, 232);
+}
+button {
+    transition: 0.2s;
+}
+button:active {
+    transform: scale(0.95);
+}
+.bottom{
+    padding:20px;
+    width: 100%;
+    background-color: peachpuff;   
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card{
+    height: 400px;
+    width: 300px;
+    background-color: rgb(64, 92, 104);
+    border:1px solid black;
+    border-radius: 20px;
+    justify-content:space-evenly;
+    padding: 20px;
+}

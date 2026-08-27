@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+.parent{
+    height: 100%;
+    width: 100%;  
+    display: flex; 
+    background-color: rgb(15, 5, 48);
+    align-items: center;
+    justify-content: center;
+}
+.child1{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(160, 101, 172);
+}
+.child2{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(203, 3, 243);
+}
+.child3 {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(160, 101, 172);
+}
+.nav{
+    background-color: royalblue;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-size: 40px;  
+    font-family: 'Courier New', Courier, monospace;  
+}
