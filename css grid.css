@@ -1,0 +1,94 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Helvetica;
+        color:white;
+    }
+
+    html,
+    body {
+        height: 100%;
+        width: 100%;
+        color:rgb(25, 23, 23);
+        font-size:30px;
+    }
+    main{
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        display:grid;
+        gap:9px;
+       grid-template-columns: 22fr 20fr 7fr 27fr 22fr;
+       grid-template-rows: 29fr 26fr 7fr 18fr 20fr;
+
+    grid-template-areas:
+    "left-top top-center1 top-center1 top-center2 right-top"
+    "left-top center center center right-top"
+    "left-bottom center center center right-top"
+    "left-bottom center center center right-bottom"
+    "left-bottom bottom-center1 bottom-center2 bottom-center2 right-bottom";
+    }
+    .left-top{
+    background-color: rgb(20, 34, 77);
+    grid-area: left-top;
+    border:2px solid white;
+    border-radius: 20px;
+    }
+    .left-bottom{
+    background-color: rgb(87, 219, 184);
+    grid-area:left-bottom;
+    border:2px solid white;
+    border-radius: 20px;
+    }
+    .right-top{
+    background-color: rgb(169, 97, 105);
+    grid-area:right-top;
+    border:2px solid white;
+    border-radius: 20px;
+    }
+    .right-bottom{
+    background-color: rgb(139, 69, 230);
+    grid-area:right-bottom;
+    border:2px solid white;
+    border-radius: 20px;
+    }
+    .center{
+    background-color:rgb(157, 123, 212);
+    grid-area:center;
+    border:2px solid white;
+    border-radius: 20px;
+    display:flex;
+    justify-content: center;
+    }       
+    .top-center1{
+    background-color: rgb(100, 172, 132);
+    grid-area:top-center1;
+    border:2px solid white;
+    border-radius:20px;
+    }
+    .top-center2{
+    background-color: rgb(20, 71, 43);
+    grid-area:top-center2;
+    border:2px solid white;
+    border-radius: 20px;
+    }
+    .bottom-center1{
+    background-color: rgb(30, 48, 101);
+    grid-area:bottom-center1;
+    border:2px solid white;
+    border-radius: 20px;
+    }
+    .bottom-center2{
+    background-color: rgb(86, 18, 60);
+    grid-area:bottom-center2;
+    border:2px solid white;
+    border-radius: 20px;
+    }   
+    .circle{
+        height: 100%;
+        width: 50%;
+        background:radial-gradient(rgb(253, 41, 80), rgb(228, 164, 164));
+        border-radius: 50%;
+        margin:auto;
+    }
